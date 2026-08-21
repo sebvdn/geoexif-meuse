@@ -1,0 +1,93 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- GeoExif : config & secrets (NE JAMAIS COMMITTER) ---
+app_config.json
+*.env
+.env
+.env.*
+secrets.json
+api_keys.json
+
+# Données de terrain / carnets
+observations.json
+observations_*.json
+dispositifs.json
+geoexif_projet.json
+dictionnaire_especes.json
+wikipedia_cache.json
+sorties_connues.json
+companion_inbox.json
+*_inbox.json
+
+# Backups & archives locales
+.geoexif_notes_backups/
+geoexif_archive/
+recovery_*.zip
+*.backup
+*.bak
+
+# Sorties / médias (ne jamais versionner les photos terrain)
+**/photos/
+**/RAW/
+**/raw/
+**/sortie*/
+**/Ecoute_*/
+*.CR2
+*.CR3
+*.NEF
+*.ARW
+*.DNG
+*.RW2
+*.orf
+*.mp4
+*.mov
+*.avi
+*.flac
+*.wav
+*.mp3
+
+# Exports générés
+*.kml
+*.kmz
+*.gpx
+!examples/**/*.gpx
+*.geojson
+birda_out/
+**/birda_out/
+
+# Caches aperçus
+.preview_cache/
+*_cache/
+*.cache
+
+# PyInstaller / installateurs
+*.spec.bak
+Output/
+installer/*.exe
+*.iss.bak
+
+# Logs
+*.log
+geoexif_log*.txt
